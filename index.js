@@ -37,13 +37,13 @@ function sound(key)
         break;
 
         case  "d":
-        var audio= new Audio("sounds/tom-1.mp3");
+        var audio= new Audio("tom-1.mp3");
          audio.play();
 
           break;
 
           case  "j":
-          var audio= new Audio("sounds/kick-bass.mp3");
+          var audio= new Audio("kick-bass.mp3");
            audio.play();
 
             break;
