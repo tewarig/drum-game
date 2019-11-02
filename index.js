@@ -26,12 +26,12 @@ function sound(key)
 
     break;
     case  "s":
-    var audio= new Audio("sounds/tom-3.mp3");
+    var audio= new Audio("tom-3.mp3");
      audio.play();
 
       break;
       case "a":
-      var audio= new Audio("sounds/tom-4.mp3");
+      var audio= new Audio("tom-4.mp3");
        audio.play();
 
         break;
