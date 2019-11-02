@@ -48,12 +48,12 @@ function sound(key)
 
             break;
             case  "k":
-            var audio= new Audio("sounds/crash.mp3");
+            var audio= new Audio("crash.mp3");
              audio.play();
 
               break;
               case  "l":
-              var audio= new Audio("sounds/snare.mp3");
+              var audio= new Audio("snare.mp3");
                audio.play();
 
                 break;
