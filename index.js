@@ -1,4 +1,6 @@
 var numberofdrumbuttons =  document.querySelectorAll(".drum").length;
+
+//loop for each ande every drum
 for(var i = 0; i<numberofdrumbuttons ; i++)
 {document.querySelectorAll(".drum")[i].addEventListener("click", handleClick);
 
@@ -16,7 +18,7 @@ ani(inner);
 
 document.addEventListener("keypress",function(bla) {sound(bla.key);ani(bla.key);
 });
-
+//function for sound
 function sound(key)
 {
   switch(key){
@@ -62,6 +64,9 @@ function sound(key)
 
 }
 
+
+//for animation
+
 function ani(key)
 {
   var active = document.querySelector("." + key);
@@ -69,5 +74,6 @@ function ani(key)
 
 
 }
+//for removing animation(not working)
 setTimeout(function(){
   active.classList.remove("pressed");},100);
